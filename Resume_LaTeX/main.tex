@@ -1,0 +1,161 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{hyperref}
+\usepackage[top=0.75in, bottom=0.2in, left=0.35in, right=0.35in]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{enumitem}
+\usepackage{palatino}
+\usepackage{tabularx}
+\fontfamily{Sans Serif}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.82}
+\textheight=9.75in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.99\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+
+\begin{document}
+% Blank white space for the header to be added by placement team
+%   \hspace{0.1em}\\ % also use up a newline
+%   \vspace{2.7cm}\\ % the remaining free space.
+
+% Dummy header is written here, just for example  in between the tags:  \iffalse and \fi .. 
+% \iffalse 
+\begin{table}
+    \begin{minipage}{0.15\linewidth}
+        \centering
+        \includegraphics[height =1.0in]{hi.png}
+    \end{minipage}
+    \begin{minipage}{0.65\linewidth}
+        %\centering
+        \setlength{\tabcolsep}{30pt}
+        \def\arraystretch{1.15}
+        \begin{tabular}{ll}
+            \textbf{\Large{Anuj Tiwari}}  &  {Ph No: +91 8209871381} \\
+            \textbf{Computer Science \& Engineering} & \textbf{B.Tech} \\
+            Government Engineering College of Ajmer &  {anuj.tiwari.2020@ecaajmer.ac.in}\\
+            &\href{https://www.linkedin.com/in/anuj-tiwari-4130a3217/}{\textbf{LinkedIn}}\\
+        \end{tabular}
+    \end{minipage}\hfill
+\end{table}    
+
+\setlength{\tabcolsep}{25pt}
+\begin{table}
+\centering
+\begin{tabular}{lllll}
+\toprule
+\textbf{Examination}    & \textbf{University}   & \textbf{Institute}    & \textbf{Year}     & \textbf{CPI/\%} \\ 
+\toprule
+Graduation  & BTU & GECA & 2020-present   & 8.70\\ 
+Intermediate/+2     & CBSE   & Nalanda Academy & 2020      & 82.61    \\ 
+Matriculation   & CBSE   & Central Academy    & 2018          &  88.00   \\
+\bottomrule \\[-0.75cm]
+\end{tabular}
+\end{table}
+% \fi
+
+
+\noindent
+\resheading{\textbf{PROJECTS} }\\[-0.3cm]
+\begin{itemize}
+\item \textbf{IR Proximity Sensor Development and Smart App}\hfill \emph{(Dec'20-Jan'21)} 
+\begin{itemize}
+    \item Arduino IR Sensor development \&Smart Level indicator Dustbins with Geo location.
+\end{itemize}
+\item \textbf{Website using ReactJs - https://skillskool.netlify.app/ }\hfill \emph{(March 2023)}
+\begin{itemize}
+    \item A fully working website for a new startup, SkillSkool. Website is made using ReactJs
+\end{itemize}
+
+\item \textbf{IOT Chain network setup for Gateway study}
+\hfill \emph{(Aug’21-Oct'21)}
+\begin{itemize}
+    \item Arduino Handlers in IOT chain Connecting Global Gateway
+\end{itemize}
+    
+\item \textbf{Attendance Management working website for any institution}\hfill \emph{(June’21-Jul'21)} 
+\begin{itemize}
+    \item Developed website through pure Languages(PHP, CSS) \& Script(JavaScript).
+\end{itemize}
+
+\item \textbf{Urban Mapping -Google Earth Engine}\hfill \emph{(Jan'21-Apr'21)}
+\begin{itemize}
+    \item Machine learning , Google earth libraries for Urban Mapping.
+\end{itemize}
+
+\item \textbf{Humidity Sensor- Dragino Gateway}\hfill \emph{(Oct'21-Dec'21)}
+\begin{itemize}
+    \item Farm Based smart equipment using Arduino Boards as Gateway Client Nodes for soid moisture content.
+\end{itemize}
+
+\end{itemize}
+
+
+\noindent
+\resheading{\textbf{TECHNICAL SKILLS}}\\[-0.4cm]
+ \begin{itemize}
+  \item \textbf{Programming \& Scripting Languages}: C, C++,React Js, Java. Linux(.bash)\\[-0.6cm]
+  \item \textbf{Programming Addition Skills}: TensorFlow, PyTorch, Numpy, Data Structures And Algorithm (LeetCoder, Gold HackerRank Verified), Objected Oriented Programming \\[-0.6cm]
+  \item \textbf{Cyber Security Tools}:MsfExploiters, Nmap, Wifite, Airmon-ng, WireShark, Hydra, Sherlock\\[-0.5cm]
+  \item \textbf{Designing Softwares}: Blender, Unity 3D, Unreal Engine, CASA, CCD Softwares\\[-0.5cm]
+  \item \textbf{Tools}: \LaTeX, MsfNetFrameWork,MySQL, Unity(Game Engine)\\[-0.5cm]
+  \item \textbf{Internet of Things}: Arduino, Raspberry Pi\\[-0.5cm]
+  \end{itemize}
+
+\noindent
+\resheading{\textbf{WORK EXPERIENCE \& INTERNSHIPS}}\\[-0.3cm]
+\begin{itemize}
+    
+     \item \textbf{Summer Intern} | \textbf{\emph{Flipkart Conversation design Chat Box, Jaipur}}\hfill \emph{(July’22-Aug'22)}\\[-0.6cm]
+    \item \textbf{Long term Intern} | \textbf{\emph{Michigan University - CyberSecurity}}\hfill \emph{July’22-Present)}\\[-0.6cm]
+    \item \textbf{student} | \textbf{\emph{GECA Cyber Security Group}}\hfill \emph{(Aug’21-Present)}\\[-0.6cm]
+    \item \textbf{RunnerUp} | \textbf{\emph{CTF competition, CISCO Code Fest}}\hfill \emph{(August’21)}\\[-0.6cm]
+    \item \textbf{Competitor} | \textbf{\emph{IT Day Hackathon Rajasthan}}\hfill \emph{(March 2023)}\\[-0.6cm]
+    \
+\end{itemize}
+
+
+\noindent
+\resheading{\textbf{CERTIFICATIONS (You can open each certificate by clicking on its name)}}\\[-0.3cm]
+\begin{itemize}
+    
+     
+     \item \href{https://drive.google.com/file/d/1ML4ZOAIljTuevwJwBSYPsFSOT4pzQhUj/view?usp=sharing}{\underline{Flipkart pvt. ltd Intern}} \hfill \textbf{\emph{Flipkart , Jaipur,India}}\\[-0.6cm]
+     \item \href{https://drive.google.com/file/d/1SqDhJUddhnPJJmJIpbloYYzmFB5fbbay/view?usp=share_link}{\underline{NPTEL certified - Programming in Java}} \hfill \textbf{\emph{NPTEL , IIT Kharagpur}}\\[-0.6cm]
+     \item \href{https://www.coursera.org/account/accomplishments/certificate/SXMDMZSTEVG6/}{\underline{Data Analytics with AWS}} \hfill \textbf{\emph{Coursera}}\\[-0.6cm]
+     \item \href{https://www.udemy.com/certificate/UC-8c37fe99-33c9-49a8-91e6-3a22d56acb2d/}{\underline{Complete MySQL Certificate}} \hfill \textbf{\emph{UDEMY}}\\[-0.6cm]
+     \item \href{}{\underline{AppDevelopent Competition(Award Winner)}} \hfill \textbf{\emph{BTU}}\\[-0.6cm]
+     \item \href{https://www.udemy.com/certificate/UC-a9b62bc4-69c9-40d8-a297-0b45af2ca330/}{\underline{LINUX Erudite}} \hfill \textbf{\emph{UDEMY}}\\[-0.6cm]
+     \item \href{https://www.hackerrank.com/anujtiwari1098}{\underline{Specialization: JAVA 5star-Gold Badge}} \hfill \textbf{\emph{HackerRank}}\\[-0.6cm]
+     
+     \item \href{https://drive.google.com/file/d/1obpzaRhSUReWC6b-wGx2Tb5RQQ425IYo/view?usp=sharing}{\underline{Introduction to Machine Learning}} \hfill \textbf{\emph{SoloLearn}}\\[-0.6cm]
+      \item \href{https://drive.google.com/file/d/1m_qS7UoPG_MV3cVlsRds2qSXnGXbaPqa/view?usp=sharing}{\underline{Digital Hackathon}} \hfill \textbf{\emph{GlobalSymmetry,INC}}\\[-0.6cm]
+     
+      \item \href{https://drive.google.com/file/d/1DFnuYR8PiDrCpTRqSHitH2gxTAyKr9lf/view?usp=sharing}{\underline{C++ Training Certificate }} \hfill \textbf{\emph{Government Engineering College Ajmer}}\\[-0.6cm]
+    
+\end{itemize}
+\end{document}
